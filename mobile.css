@@ -1,9 +1,172 @@
 @media screen and (max-width: 400px){
-
-
-
     body{
-        margin: 0;
-        padding: 0;
+        padding: 0vw;
+        margin: 0vw;
     }
+
+    .flx{
+        display: block;
+    }
+    
+    .ham{
+        display: block;
+        font-size: 5vw;
+        height: 0vw;
+    }
+
+    .nav{
+        background-color:lightgrey;
+    }
+
+    .pad2{
+        padding-left: 2vw;
+    }
+
+    #home{
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 95%;
+    }
+
+    .closebtn{
+        display: none;
+        border: none;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .bcolor{
+        background-color:rgb(248,248,248);
+    }
+
+    .tcolor{
+        color: grey;
+    }
+
+    .btn1{
+        width: 40vw;
+        height: 10vw;
+    }
+
+    .btn2{
+        margin-left: 10vw;
+        width: 40vw;
+        height: 10vw;
+        position: relative;
+        top: -1vw;
+        left: 34vw;
+    }
+
+    .btn3{
+        width: 30vw;
+        height: 10vw;
+    }
+
+    .btn4{
+        width: 30vw;
+        height: 9vw;
+        font-size: 4vw;
+    }
+
+    .pad1{
+        padding-left: 5vw;
+    }
+
+    .card1{
+        width: 60vw;
+        /* padding-bottom: 20vw; */
+    }
+
+    .hover1:hover{
+        background-color: wheat;
+    }
+
+    .hover2:hover{
+        background-color:bisque;
+    }
+
+
+    .fnt{
+        font-size: 5vw;
+    }
+
+    .fnt3{
+        font-size: 3vw;
+    }
+
+    .fnt4{
+        font-size: 5vw;
+    }
+
+    .fnt5{
+        font-size: 4vw;
+    }
+
+    .fnt6{
+        font-size: 6vw;
+    }
+
+    .cwidth{
+        width: 95%;
+        margin-bottom: 7vw;
+    }
+
+    .swidth{
+        width: 100%;
+    }
+
+    .i1{
+        height: 4vw;
+    }
+
+    .img1{
+        width: 60vw;
+        border-radius: 5vw;
+    }
+
+    .img2{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .img3{
+        border-radius: 2vw;
+    }
+
+    .img4{
+        height: 5.5vw;
+        width: 5vw;
+        border-radius: 0.5vw;
+    }
+
+    .marl{
+        margin-left: 22vw;
+    }
+
+    .input{
+        height: 7vw;
+        width:50vw;
+        border-color: lightgray;
+        margin-left: 10vw;
+    }
+
+    .marg{
+        margin-left: 30vw;
+    }
+
+    #contact{
+        background-color:azure;
+    }
+
+    .align2{
+        height: 14vw;
+    }
+
+    #bacc{
+        background-color: rgb(234, 240, 240);
+    }
+
 }

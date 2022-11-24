@@ -5,6 +5,10 @@ body{
     
 }
 
+.flx{
+    display: flex;
+}
+
 ul li{
     list-style-type: none;   
 }
@@ -133,8 +137,6 @@ a{
     background-color: red;
 }
 
-
-
 .img1{
     width: 37vw;
     border-radius: 2vw;
@@ -176,7 +178,6 @@ a{
     width: 15vw;
     padding: 3vw;
     margin: 2vw;
-    /* box-shadow:gray; */
 }
 
 .buttons{
@@ -229,6 +230,7 @@ a{
     border-color: lightgray;
     margin-left: 30vw;
 }
+
 .cwidth{
     width: 23vw;
 }
@@ -244,8 +246,6 @@ a{
 
 .rating{
     border: 0.2vw solid black;
-    /* height: 1vw;
-    width: 6vw; */
     color: white;
     background-color: black;
     border-radius: 2vw;
@@ -272,6 +272,10 @@ a{
     margin-top: 3vw;
 }
 
-.flx{
-    display: flex;
+.ham{
+    display: none;
+}
+
+.closebtn{
+    display: none;
 }

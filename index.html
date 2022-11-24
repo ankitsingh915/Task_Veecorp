@@ -6,25 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./mobile.css">
 </head>
 <body >
     <!-- Navigation bar -->
 
+    <div class="ham bcolor" id="ham1"><ion-icon name="menu-outline"></ion-icon></div>
+    <button class="closebtn bcolor" id="closebtn" onclick="hide()">X</button>
+    
     <div class="nav flx bcolor" id="home">
         <div>
-            <ul class="pad1">
+            <ul class="pad1 hover1">
                 <li><a class="navbar-brand tcolor fnt" href="#">BrandName</a></li>
             </ul>
         </div>
         <div>
             <ul class="flx">
-                <li class="pad"><a class="tcolor fnt5" href="#home">Home</a></li>
-                <li class="pad"><a class="tcolor fnt5" href="#product">Product</a></li>
-                <li class="pad"><a class="tcolor fnt5" href="#pricing">Pricing</a></li>
-                <li class="pad"><a class="tcolor fnt5" href="#contact">Contact</a></li>
+                <li class="pad hover2"><a class="tcolor fnt5" href="#home">Home</a></li>
+                <li class="pad hover2"><a class="tcolor fnt5" href="#product">Product</a></li>
+                <li class="pad hover2"><a class="tcolor fnt5" href="#pricing">Pricing</a></li>
+                <li class="pad hover2"><a class="tcolor fnt5" href="#contact">Contact</a></li>
             </ul>
         </div>
-        <div class="flx pad2">
+        <div class="flx pad2 hover2">
             <ul><li><a class="tcolor2 fnt5" href="">Login</a></li></ul>
             <ul><li><a class="tcolor3 fnt3" href="">JOIN US →</a></li></ul>
         </div>
@@ -58,7 +62,7 @@
             <div class="line"></div>
             <p class="fnt5 fweight">The gradual accumulation of information about atomic and small-scale behaviour...</p>
         </div>
-        <div class="card1 bcolor2">
+        <div class="card1 bcolor2 marl">
             <div><img class="img4" src="./Assets/icons8-double-check-48.png"></div>
             <h3 class="fnt5">Market Analysis</h3>
             <div class="line"></div>
@@ -151,7 +155,7 @@
 
     <!-- Feedback -->
 
-    <div class="pad1 padb2">
+    <div class="pad1 padb2" id="bacc">
         <h5 class="tcolor2 padt fnt5">Practice Advice</h5>
         <h1 class="fnt6">Each and every client is important</h1>
         <p class="padb2 fnt5 fweight">Problems trying to resolve the conflict between <br> the two major realms of Classical physics: Newtonian mechanics
@@ -262,7 +266,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="marg">
             <ul><li>
                 <h3 class="fnt4 swidth">Company Info</h3>
             </li></ul>
@@ -282,8 +286,8 @@
 
         <div>
             <ul><li>
-            <h3 class="fnt4 swidth">Features</h3>
-        </li></ul>
+                <h3 class="fnt4 swidth">Features</h3>
+            </li></ul>
             <ul>
                 <li><a class="fweight fnt5" href="">Business Marketing</a></li>
             </ul>
@@ -298,7 +302,7 @@
             </ul>
         </div>
 
-        <div>
+        <div class="marg">
             <ul><li>
                 <h3 class="fnt4 swidth">Resources</h3>
             </li></ul>
@@ -320,6 +324,12 @@
     <div class="align2">
         <p class="fnt1 fnt5 fweight">Made With Love By Figmaland All Right Reserved </p> 
     </div>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="./main.js"></script>
 
 </body>
 </html>
