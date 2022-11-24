@@ -1,0 +1,277 @@
+
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+ul li{
+    list-style-type: none;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.fnt{
+    font-weight:bolder;
+    font-size: 1.8vw;
+}
+
+.fnt2{
+    font-size: 4vw;
+}
+
+.fnt3{
+    font-size: 1vw;
+}
+
+.fnt4{
+    font-size: 2vw;
+}
+
+.fnt5{
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.fnt6{
+    font-size: 3vw;
+}
+
+.fweight{
+    font-weight: bold;
+    color: grey;
+}
+
+.swidth{
+    width: 15vw;
+}
+
+.tcolor{
+    color: black;
+}
+
+.tcolor2{
+    color:rgb(0, 150, 255);
+    font-weight: bold;
+}
+
+.tcolor3{
+    color: white;
+    background-color:rgb(0, 150, 255);
+    border: 0.2vw solid rgb(0, 150, 255);
+    padding: 1vw;
+    border-radius: 0.5vw;
+    width: 10vw;
+}
+
+.pad1{
+    padding-left: 12.8vw;
+}
+
+.pad{
+    padding-left: 2vw;
+}
+
+.pad2{
+    padding-left: 14vw;
+}
+
+.paddi{
+    padding: 2vw;
+}
+
+.padb{
+    padding-bottom: 3vw;
+}
+.padb1{
+    padding-bottom: 1vw;
+}
+
+.padb2{
+    padding-bottom: 10vw;
+}
+
+.padt{
+    padding-top: 7vw;
+}
+
+.padt2{
+    padding-top: 15vw;
+}
+
+.mar{
+    margin-top: 10vw;
+}
+
+.mar1{
+    margin-right: 2vw;
+}
+
+.mar2{
+    margin-left: 5vw;
+}
+
+.mar3{
+    margin: 4vw;
+}
+
+.mar4{
+    margin-bottom: 20vw;
+}
+
+.line{
+    border: 0.1vw solid red;
+    width: 4vw;
+    background-color: red;
+}
+
+.line2{
+    border: 0.3vw solid red;
+    width: 6vw;
+    background-color: red;
+}
+
+
+
+.img1{
+    width: 37vw;
+    border-radius: 2vw;
+}
+
+.img2{
+    width: 35vw;
+    height: 40vw;
+}
+
+.img3{
+    width: 23vw;
+    height: 25vw;
+}
+
+.img4{
+    height: 5.5vw;
+    width: 5vw;
+    border-radius: 0.5vw;
+}
+
+.img5{
+    width: 1.1vw;
+}
+
+.bcolor{
+    background-color:rgb(248,248,248);
+}
+
+.bcolor2{
+    background-color: white;
+}
+
+.bcolor3{
+    background-color:rgb(255, 245, 238);
+}
+
+.card1{
+    width: 15vw;
+    padding: 3vw;
+    margin: 2vw;
+    /* box-shadow:gray; */
+}
+
+.buttons{
+    margin-top: 3vw;
+}
+
+.btn1{
+    background-color:rgb(0, 150, 255);
+    border: none;
+    height: 3.4vw;
+    width: 11vw;
+    color: white;
+    border-radius: .5vw;
+    cursor: pointer;
+}
+
+.btn2{
+    color:rgb(0, 150, 255);
+    border-color:rgb(0, 150, 255);
+    border-radius: .5vw;
+    height: 3.4vw;
+    width: 11vw;
+    cursor: pointer;
+}
+
+.btn3{
+    height: 3vw;
+    width: 10vw;
+    color: rgb(0, 150, 255);
+    border-color: rgb(0, 150, 255);
+    border-radius: 2vw;
+    background-color: white;
+    margin-top: 2vw;
+}
+
+.btn4{
+    background-color:rgb(0, 150, 255);
+    font-size: 1.2vw;
+    border: none;
+    height: 3.4vw;
+    width: 11vw;
+    color: white;
+    border-radius: .5vw;
+    cursor: pointer;
+}
+
+.input{
+    border-radius: 0.2vw;
+    width:25vw;
+    border-color: lightgray;
+    margin-left: 30vw;
+}
+.cwidth{
+    width: 23vw;
+}
+
+.iwidth{
+    height: 4vw;
+    border-radius: 5vw;
+}
+
+.clr{
+    color: rgb(135, 189, 54);
+}
+
+.rating{
+    border: 0.2vw solid black;
+    /* height: 1vw;
+    width: 6vw; */
+    color: white;
+    background-color: black;
+    border-radius: 2vw;
+    margin-left: 3vw;
+}
+
+.align{
+    text-align: center;
+}
+
+.align2{
+    text-align: center;
+   padding-top: 0.6vw;
+    height: 4vw;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.i1{
+    height: 1.5vw;
+}
+
+.para2{
+    margin-top: 3vw;
+}
+
+.flx{
+    display: flex;
+}
